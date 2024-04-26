@@ -1,0 +1,10 @@
+O codigo: 
+
+P = *L;
+while(P->link != NULL) {
+cout << P->info;
+P = P->link;
+}
+
+Vai imprimir 40 e 30. o while acaba antes de imprimir o 20.
+
